@@ -276,6 +276,19 @@ offboard_control_srv/fast:
 .PHONY : offboard_control_srv/fast
 
 #=============================================================================
+# Target rules for targets named vehicle_odometry_listener
+
+# Build rule for target.
+vehicle_odometry_listener: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vehicle_odometry_listener
+.PHONY : vehicle_odometry_listener
+
+# fast build rule for target.
+vehicle_odometry_listener/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_odometry_listener.dir/build.make CMakeFiles/vehicle_odometry_listener.dir/build
+.PHONY : vehicle_odometry_listener/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_symlink_px4_ros_com
 
 # Build rule for target.
@@ -373,6 +386,30 @@ src/examples/listeners/vehicle_gps_position_listener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_gps_position_listener.dir/build.make CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.s
 .PHONY : src/examples/listeners/vehicle_gps_position_listener.cpp.s
 
+src/examples/listeners/vehicle_odometry_listener.o: src/examples/listeners/vehicle_odometry_listener.cpp.o
+.PHONY : src/examples/listeners/vehicle_odometry_listener.o
+
+# target to build an object file
+src/examples/listeners/vehicle_odometry_listener.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_odometry_listener.dir/build.make CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.o
+.PHONY : src/examples/listeners/vehicle_odometry_listener.cpp.o
+
+src/examples/listeners/vehicle_odometry_listener.i: src/examples/listeners/vehicle_odometry_listener.cpp.i
+.PHONY : src/examples/listeners/vehicle_odometry_listener.i
+
+# target to preprocess a source file
+src/examples/listeners/vehicle_odometry_listener.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_odometry_listener.dir/build.make CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.i
+.PHONY : src/examples/listeners/vehicle_odometry_listener.cpp.i
+
+src/examples/listeners/vehicle_odometry_listener.s: src/examples/listeners/vehicle_odometry_listener.cpp.s
+.PHONY : src/examples/listeners/vehicle_odometry_listener.s
+
+# target to generate assembly for a file
+src/examples/listeners/vehicle_odometry_listener.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicle_odometry_listener.dir/build.make CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.s
+.PHONY : src/examples/listeners/vehicle_odometry_listener.cpp.s
+
 src/examples/offboard/offboard_control.o: src/examples/offboard/offboard_control.cpp.o
 .PHONY : src/examples/offboard/offboard_control.o
 
@@ -468,6 +505,7 @@ help:
 	@echo "... offboard_control_srv"
 	@echo "... sensor_combined_listener"
 	@echo "... vehicle_gps_position_listener"
+	@echo "... vehicle_odometry_listener"
 	@echo "... src/examples/advertisers/debug_vect_advertiser.o"
 	@echo "... src/examples/advertisers/debug_vect_advertiser.i"
 	@echo "... src/examples/advertisers/debug_vect_advertiser.s"
@@ -477,6 +515,9 @@ help:
 	@echo "... src/examples/listeners/vehicle_gps_position_listener.o"
 	@echo "... src/examples/listeners/vehicle_gps_position_listener.i"
 	@echo "... src/examples/listeners/vehicle_gps_position_listener.s"
+	@echo "... src/examples/listeners/vehicle_odometry_listener.o"
+	@echo "... src/examples/listeners/vehicle_odometry_listener.i"
+	@echo "... src/examples/listeners/vehicle_odometry_listener.s"
 	@echo "... src/examples/offboard/offboard_control.o"
 	@echo "... src/examples/offboard/offboard_control.i"
 	@echo "... src/examples/offboard/offboard_control.s"

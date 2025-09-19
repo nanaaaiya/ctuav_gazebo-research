@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ctuav/ctuav_gazebo-research/build/px4_ros_com/vehicle_odometry_listener" "TARGETS" "vehicle_odometry_listener" "DESTINATION" "lib/px4_ros_com")

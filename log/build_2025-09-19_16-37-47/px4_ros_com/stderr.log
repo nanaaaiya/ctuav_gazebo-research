@@ -1,0 +1,84 @@
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:[m[K In lambda function:
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:40:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klocal_frame[m[K’
+   40 |                 std::cout << "local_frame: " << static_cast<int>(msg->[01;31m[Klocal_frame[m[K) << std::endl;
+      |                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kx[m[K’
+   44 |                 std::cout << "x: " << msg->[01;31m[Kx[m[K << "  y: " << msg->y << "  z: " << msg->z << std::endl;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ky[m[K’
+   44 |                 std::cout << "x: " << msg->x << "  y: " << msg->[01;31m[Ky[m[K << "  z: " << msg->z << std::endl;
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kz[m[K’
+   44 |                 std::cout << "x: " << msg->x << "  y: " << msg->y << "  z: " << msg->[01;31m[Kz[m[K << std::endl;
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:53:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kq_offset[m[K’
+   53 |                 if (msg->[01;31m[Kq_offset[m[K.size() >= 4) {
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:54:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kq_offset[m[K’
+   54 |                     std::cout << "q_offset: [" << msg->[01;31m[Kq_offset[m[K[0] << ", " << msg->q_offset[1]
+      |                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:54:84:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kq_offset[m[K’
+   54 |                     std::cout << "q_offset: [" << msg->q_offset[0] << ", " << msg->[01;31m[Kq_offset[m[K[1]
+      |                                                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:55:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kq_offset[m[K’
+   55 |                               << ", " << msg->[01;31m[Kq_offset[m[K[2] << ", " << msg->q_offset[3] << "]" << std::endl;
+      |                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:55:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kq_offset[m[K’
+   55 |                               << ", " << msg->q_offset[2] << ", " << msg->[01;31m[Kq_offset[m[K[3] << "]" << std::endl;
+      |                                                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvx[m[K’
+   59 |                 std::cout << "vx: " << msg->[01;31m[Kvx[m[K << "  vy: " << msg->vy << "  vz: " << msg->vz << std::endl;
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvy[m[K’
+   59 |                 std::cout << "vx: " << msg->vx << "  vy: " << msg->[01;31m[Kvy[m[K << "  vz: " << msg->vz << std::endl;
+      |                                                                    [01;31m[K^~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvz[m[K’
+   59 |                 std::cout << "vx: " << msg->vx << "  vy: " << msg->vy << "  vz: " << msg->[01;31m[Kvz[m[K << std::endl;
+      |                                                                                           [01;31m[K^~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:63:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krollspeed[m[K’
+   63 |                     std::cout << "rollspeed: " << msg->[01;31m[Krollspeed[m[K << "  pitchspeed: " << msg->pitchspeed
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:63:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpitchspeed[m[K’
+   63 |                     std::cout << "rollspeed: " << msg->rollspeed << "  pitchspeed: " << msg->[01;31m[Kpitchspeed[m[K
+      |                                                                                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:64:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kyawspeed[m[K’
+   64 |                               << "  yawspeed: " << msg->[01;31m[Kyawspeed[m[K << std::endl;
+      |                                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:70:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kestimator_type[m[K’
+   70 |                     std::cout << "estimator_type: " << static_cast<int>(msg->[01;31m[Kestimator_type[m[K) << std::endl;
+      |                                                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:74:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose_covariance[m[K’; did you mean ‘[01m[Kposition_variance[m[K’?
+   74 |                 if (msg->[01;31m[Kpose_covariance[m[K.size() > 0) {
+      |                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                          [32m[Kposition_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:76:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose_covariance[m[K’; did you mean ‘[01m[Kposition_variance[m[K’?
+   76 |                     for (size_t i = 0; i < std::min<size_t>(3, msg->[01;31m[Kpose_covariance[m[K.size()); ++i) {
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Kposition_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:77:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose_covariance[m[K’; did you mean ‘[01m[Kposition_variance[m[K’?
+   77 |                         std::cout << msg->[01;31m[Kpose_covariance[m[K[i] << (i+1 < std::min<size_t>(3, msg->pose_covariance.size()) ? ", " : "");
+      |                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                           [32m[Kposition_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:77:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpose_covariance[m[K’; did you mean ‘[01m[Kposition_variance[m[K’?
+   77 |                         std::cout << msg->pose_covariance[i] << (i+1 < std::min<size_t>(3, msg->[01;31m[Kpose_covariance[m[K.size()) ? ", " : "");
+      |                                                                                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                                 [32m[Kposition_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:81:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvelocity_covariance[m[K’; did you mean ‘[01m[Kvelocity_variance[m[K’?
+   81 |                 if (msg->[01;31m[Kvelocity_covariance[m[K.size() > 0) {
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[Kvelocity_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:83:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvelocity_covariance[m[K’; did you mean ‘[01m[Kvelocity_variance[m[K’?
+   83 |                     for (size_t i = 0; i < std::min<size_t>(3, msg->[01;31m[Kvelocity_covariance[m[K.size()); ++i) {
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Kvelocity_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:84:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvelocity_covariance[m[K’; did you mean ‘[01m[Kvelocity_variance[m[K’?
+   84 |                         std::cout << msg->[01;31m[Kvelocity_covariance[m[K[i] << (i+1 < std::min<size_t>(3, msg->velocity_covariance.size()) ? ", " : "");
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                           [32m[Kvelocity_variance[m[K
+[01m[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:84:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kvelocity_covariance[m[K’; did you mean ‘[01m[Kvelocity_variance[m[K’?
+   84 |                         std::cout << msg->velocity_covariance[i] << (i+1 < std::min<size_t>(3, msg->[01;31m[Kvelocity_covariance[m[K.size()) ? ", " : "");
+      |                                                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                     [32m[Kvelocity_variance[m[K
+gmake[2]: *** [CMakeFiles/vehicle_odometry_listener.dir/build.make:76: CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:308: CMakeFiles/vehicle_odometry_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

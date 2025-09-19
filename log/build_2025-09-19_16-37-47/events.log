@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'fastcdr'}
+[0.000310] (-) JobUnselected: {'identifier': 'fastrtps'}
+[0.000324] (-) JobUnselected: {'identifier': 'microxrcedds_agent'}
+[0.000336] (-) JobUnselected: {'identifier': 'px4'}
+[0.000348] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000361] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/ctuav/ctuav_gazebo-research/install/px4_msgs')])}
+[0.000376] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.009036] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.009629] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.010181] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com', '--', '-j12', '-l12'], 'cwd': '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ctuav'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib:/home/ctuav/ctuav_gazebo-research/install/px4/lib:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib:/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ctuav'), ('OLDPWD', '/home/ctuav/ctuav_gazebo-research'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '4766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ctuav/ctuav_gazebo-research/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ctuav'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ctuav'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/bin:/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:/opt/ros/humble/bin:/home/ctuav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/ctuav:@/tmp/.ICE-unix/1758,unix/ctuav:/tmp/.ICE-unix/1758'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3e07d006_8a81_4e35_9a2c_83f2139ec3a4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.1BP6C3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.127'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages:/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent:/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/opt/ros/humble')]), 'shell': False}
+[0.035493] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099602] (-) TimerEvent: {}
+[0.123868] (px4_ros_com) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.128835] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.146879] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.148485] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.152345] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.158697] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167069] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.174608] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.175498] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.192087] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.199551] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199720] (-) TimerEvent: {}
+[0.216541] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.217510] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299771] (-) TimerEvent: {}
+[0.312081] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.337579] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.349255] (px4_ros_com) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.355761] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399869] (-) TimerEvent: {}
+[0.410132] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.414983] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.415346] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ctuav/ctuav_gazebo-research/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/include/px4_ros_com>\n'}
+[0.415424] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.420349] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.420536] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.421476] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.422742] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.423442] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.428248] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.428405] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.428986] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.430677] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.454740] (px4_ros_com) StdoutLine: {'line': b'-- Generating done\n'}
+[0.463079] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /home/ctuav/ctuav_gazebo-research/build/px4_ros_com\n'}
+[0.491147] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_combined_listener\x1b[0m\n'}
+[0.492051] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target frame_transforms\x1b[0m\n'}
+[0.492159] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target offboard_control_srv\x1b[0m\n'}
+[0.492239] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target offboard_control\x1b[0m\n'}
+[0.492321] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target debug_vect_advertiser\x1b[0m\n'}
+[0.492396] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener\x1b[0m\n'}
+[0.500879] (-) TimerEvent: {}
+[0.503104] (px4_ros_com) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.o\x1b[0m\n'}
+[0.510899] (px4_ros_com) StdoutLine: {'line': b'[ 21%] Built target frame_transforms\n'}
+[0.511329] (px4_ros_com) StdoutLine: {'line': b'[ 35%] Built target debug_vect_advertiser\n'}
+[0.512062] (px4_ros_com) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_symlink_px4_ros_com\n'}
+[0.512356] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target vehicle_gps_position_listener\n'}
+[0.512644] (px4_ros_com) StdoutLine: {'line': b'[ 64%] Built target offboard_control\n'}
+[0.512738] (px4_ros_com) StdoutLine: {'line': b'[ 78%] Built target offboard_control_srv\n'}
+[0.513814] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target sensor_combined_listener\n'}
+[0.600995] (-) TimerEvent: {}
+[0.697681] (px4_ros_com) StdoutLine: {'line': b'running egg_info\n'}
+[0.698377] (px4_ros_com) StdoutLine: {'line': b'writing px4_ros_com.egg-info/PKG-INFO\n'}
+[0.698523] (px4_ros_com) StdoutLine: {'line': b'writing dependency_links to px4_ros_com.egg-info/dependency_links.txt\n'}
+[0.698652] (px4_ros_com) StdoutLine: {'line': b'writing top-level names to px4_ros_com.egg-info/top_level.txt\n'}
+[0.700019] (px4_ros_com) StdoutLine: {'line': b"reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.700411] (px4_ros_com) StdoutLine: {'line': b"writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'\n"}
+[0.701043] (-) TimerEvent: {}
+[0.721678] (px4_ros_com) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_px4_ros_com_egg\n'}
+[0.801145] (-) TimerEvent: {}
+[0.901394] (-) TimerEvent: {}
+[1.001686] (-) TimerEvent: {}
+[1.101944] (-) TimerEvent: {}
+[1.202242] (-) TimerEvent: {}
+[1.302533] (-) TimerEvent: {}
+[1.402792] (-) TimerEvent: {}
+[1.503151] (-) TimerEvent: {}
+[1.603452] (-) TimerEvent: {}
+[1.703760] (-) TimerEvent: {}
+[1.804048] (-) TimerEvent: {}
+[1.904292] (-) TimerEvent: {}
+[2.004561] (-) TimerEvent: {}
+[2.104929] (-) TimerEvent: {}
+[2.205278] (-) TimerEvent: {}
+[2.305626] (-) TimerEvent: {}
+[2.405944] (-) TimerEvent: {}
+[2.425783] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.426044] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:40:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Klocal_frame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.426248] (px4_ros_com) StderrLine: {'line': b'   40 |                 std::cout << "local_frame: " << static_cast<int>(msg->\x1b[01;31m\x1b[Klocal_frame\x1b[m\x1b[K) << std::endl;\n'}
+[2.426359] (px4_ros_com) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.426430] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.426472] (px4_ros_com) StderrLine: {'line': b'   44 |                 std::cout << "x: " << msg->\x1b[01;31m\x1b[Kx\x1b[m\x1b[K << "  y: " << msg->y << "  z: " << msg->z << std::endl;\n'}
+[2.426511] (px4_ros_com) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.426547] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.426585] (px4_ros_com) StderrLine: {'line': b'   44 |                 std::cout << "x: " << msg->x << "  y: " << msg->\x1b[01;31m\x1b[Ky\x1b[m\x1b[K << "  z: " << msg->z << std::endl;\n'}
+[2.426622] (px4_ros_com) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.426658] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:44:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.426701] (px4_ros_com) StderrLine: {'line': b'   44 |                 std::cout << "x: " << msg->x << "  y: " << msg->y << "  z: " << msg->\x1b[01;31m\x1b[Kz\x1b[m\x1b[K << std::endl;\n'}
+[2.426746] (px4_ros_com) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.426840] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:53:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kq_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.426885] (px4_ros_com) StderrLine: {'line': b'   53 |                 if (msg->\x1b[01;31m\x1b[Kq_offset\x1b[m\x1b[K.size() >= 4) {\n'}
+[2.426924] (px4_ros_com) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.426985] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:54:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kq_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427076] (px4_ros_com) StderrLine: {'line': b'   54 |                     std::cout << "q_offset: [" << msg->\x1b[01;31m\x1b[Kq_offset\x1b[m\x1b[K[0] << ", " << msg->q_offset[1]\n'}
+[2.427123] (px4_ros_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.427164] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:54:84:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kq_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427210] (px4_ros_com) StderrLine: {'line': b'   54 |                     std::cout << "q_offset: [" << msg->q_offset[0] << ", " << msg->\x1b[01;31m\x1b[Kq_offset\x1b[m\x1b[K[1]\n'}
+[2.427250] (px4_ros_com) StderrLine: {'line': b'      |                                                                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.427288] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:55:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kq_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427326] (px4_ros_com) StderrLine: {'line': b'   55 |                               << ", " << msg->\x1b[01;31m\x1b[Kq_offset\x1b[m\x1b[K[2] << ", " << msg->q_offset[3] << "]" << std::endl;\n'}
+[2.427364] (px4_ros_com) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.427402] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:55:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kq_offset\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427464] (px4_ros_com) StderrLine: {'line': b'   55 |                               << ", " << msg->q_offset[2] << ", " << msg->\x1b[01;31m\x1b[Kq_offset\x1b[m\x1b[K[3] << "]" << std::endl;\n'}
+[2.427573] (px4_ros_com) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.427616] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427653] (px4_ros_com) StderrLine: {'line': b'   59 |                 std::cout << "vx: " << msg->\x1b[01;31m\x1b[Kvx\x1b[m\x1b[K << "  vy: " << msg->vy << "  vz: " << msg->vz << std::endl;\n'}
+[2.427689] (px4_ros_com) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.427734] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvy\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427777] (px4_ros_com) StderrLine: {'line': b'   59 |                 std::cout << "vx: " << msg->vx << "  vy: " << msg->\x1b[01;31m\x1b[Kvy\x1b[m\x1b[K << "  vz: " << msg->vz << std::endl;\n'}
+[2.427812] (px4_ros_com) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.427847] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:59:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427883] (px4_ros_com) StderrLine: {'line': b'   59 |                 std::cout << "vx: " << msg->vx << "  vy: " << msg->vy << "  vz: " << msg->\x1b[01;31m\x1b[Kvz\x1b[m\x1b[K << std::endl;\n'}
+[2.427918] (px4_ros_com) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.427952] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:63:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Krollspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.427988] (px4_ros_com) StderrLine: {'line': b'   63 |                     std::cout << "rollspeed: " << msg->\x1b[01;31m\x1b[Krollspeed\x1b[m\x1b[K << "  pitchspeed: " << msg->pitchspeed\n'}
+[2.428022] (px4_ros_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428056] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:63:94:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpitchspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.428100] (px4_ros_com) StderrLine: {'line': b'   63 |                     std::cout << "rollspeed: " << msg->rollspeed << "  pitchspeed: " << msg->\x1b[01;31m\x1b[Kpitchspeed\x1b[m\x1b[K\n'}
+[2.428137] (px4_ros_com) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428171] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:64:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kyawspeed\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.428213] (px4_ros_com) StderrLine: {'line': b'   64 |                               << "  yawspeed: " << msg->\x1b[01;31m\x1b[Kyawspeed\x1b[m\x1b[K << std::endl;\n'}
+[2.428249] (px4_ros_com) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.428286] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:70:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kestimator_type\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.428330] (px4_ros_com) StderrLine: {'line': b'   70 |                     std::cout << "estimator_type: " << static_cast<int>(msg->\x1b[01;31m\x1b[Kestimator_type\x1b[m\x1b[K) << std::endl;\n'}
+[2.428368] (px4_ros_com) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428431] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:74:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.428523] (px4_ros_com) StderrLine: {'line': b'   74 |                 if (msg->\x1b[01;31m\x1b[Kpose_covariance\x1b[m\x1b[K.size() > 0) {\n'}
+[2.428566] (px4_ros_com) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428602] (px4_ros_com) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kposition_variance\x1b[m\x1b[K\n'}
+[2.428641] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:76:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.428688] (px4_ros_com) StderrLine: {'line': b'   76 |                     for (size_t i = 0; i < std::min<size_t>(3, msg->\x1b[01;31m\x1b[Kpose_covariance\x1b[m\x1b[K.size()); ++i) {\n'}
+[2.428778] (px4_ros_com) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.428820] (px4_ros_com) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Kposition_variance\x1b[m\x1b[K\n'}
+[2.428859] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:77:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.428899] (px4_ros_com) StderrLine: {'line': b'   77 |                         std::cout << msg->\x1b[01;31m\x1b[Kpose_covariance\x1b[m\x1b[K[i] << (i+1 < std::min<size_t>(3, msg->pose_covariance.size()) ? ", " : "");\n'}
+[2.428981] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429017] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kposition_variance\x1b[m\x1b[K\n'}
+[2.429052] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:77:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpose_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kposition_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.429087] (px4_ros_com) StderrLine: {'line': b'   77 |                         std::cout << msg->pose_covariance[i] << (i+1 < std::min<size_t>(3, msg->\x1b[01;31m\x1b[Kpose_covariance\x1b[m\x1b[K.size()) ? ", " : "");\n'}
+[2.429123] (px4_ros_com) StderrLine: {'line': b'      |                                                                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429165] (px4_ros_com) StderrLine: {'line': b'      |                                                                                                 \x1b[32m\x1b[Kposition_variance\x1b[m\x1b[K\n'}
+[2.429201] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:81:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvelocity_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocity_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.429241] (px4_ros_com) StderrLine: {'line': b'   81 |                 if (msg->\x1b[01;31m\x1b[Kvelocity_covariance\x1b[m\x1b[K.size() > 0) {\n'}
+[2.429274] (px4_ros_com) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429308] (px4_ros_com) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kvelocity_variance\x1b[m\x1b[K\n'}
+[2.429341] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:83:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvelocity_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocity_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.429375] (px4_ros_com) StderrLine: {'line': b'   83 |                     for (size_t i = 0; i < std::min<size_t>(3, msg->\x1b[01;31m\x1b[Kvelocity_covariance\x1b[m\x1b[K.size()); ++i) {\n'}
+[2.429408] (px4_ros_com) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429441] (px4_ros_com) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[Kvelocity_variance\x1b[m\x1b[K\n'}
+[2.429474] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:84:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvelocity_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocity_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.429516] (px4_ros_com) StderrLine: {'line': b'   84 |                         std::cout << msg->\x1b[01;31m\x1b[Kvelocity_covariance\x1b[m\x1b[K[i] << (i+1 < std::min<size_t>(3, msg->velocity_covariance.size()) ? ", " : "");\n'}
+[2.429555] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429594] (px4_ros_com) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kvelocity_variance\x1b[m\x1b[K\n'}
+[2.429628] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/src/examples/listeners/vehicle_odometry_listener.cpp:84:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::VehicleOdometry_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kvelocity_covariance\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvelocity_variance\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.429666] (px4_ros_com) StderrLine: {'line': b'   84 |                         std::cout << msg->velocity_covariance[i] << (i+1 < std::min<size_t>(3, msg->\x1b[01;31m\x1b[Kvelocity_covariance\x1b[m\x1b[K.size()) ? ", " : "");\n'}
+[2.429700] (px4_ros_com) StderrLine: {'line': b'      |                                                                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.429744] (px4_ros_com) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[Kvelocity_variance\x1b[m\x1b[K\n'}
+[2.506072] (-) TimerEvent: {}
+[2.606420] (-) TimerEvent: {}
+[2.706770] (-) TimerEvent: {}
+[2.807088] (-) TimerEvent: {}
+[2.907431] (-) TimerEvent: {}
+[3.007753] (-) TimerEvent: {}
+[3.108078] (-) TimerEvent: {}
+[3.208422] (-) TimerEvent: {}
+[3.308800] (-) TimerEvent: {}
+[3.409116] (-) TimerEvent: {}
+[3.509437] (-) TimerEvent: {}
+[3.609773] (-) TimerEvent: {}
+[3.710103] (-) TimerEvent: {}
+[3.810422] (-) TimerEvent: {}
+[3.910676] (-) TimerEvent: {}
+[4.011016] (-) TimerEvent: {}
+[4.111344] (-) TimerEvent: {}
+[4.202856] (px4_ros_com) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vehicle_odometry_listener.dir/build.make:76: CMakeFiles/vehicle_odometry_listener.dir/src/examples/listeners/vehicle_odometry_listener.cpp.o] Error 1\n'}
+[4.203239] (px4_ros_com) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:308: CMakeFiles/vehicle_odometry_listener.dir/all] Error 2\n'}
+[4.203650] (px4_ros_com) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.206210] (px4_ros_com) CommandEnded: {'returncode': 2}
+[4.211413] (-) TimerEvent: {}
+[4.216416] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 2}
+[4.226879] (-) EventReactorShutdown: {}
