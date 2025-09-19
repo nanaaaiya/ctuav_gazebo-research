@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[0.064s] [100%] Built target fastcdr
+[0.078s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[0.088s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
+[0.097s] -- Install configuration: "Release"
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/LICENSE
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/Cdr.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/FastBuffer.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/FastCdr.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/config.h
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so.1.0.24
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so.1
+[0.098s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so
+[0.099s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets.cmake
+[0.099s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets-release.cmake
+[0.099s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[0.099s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[0.100s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr

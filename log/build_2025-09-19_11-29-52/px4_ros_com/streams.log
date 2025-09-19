@@ -1,0 +1,109 @@
+[0.009s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent:/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib:/home/ctuav/ctuav_gazebo-research/install/px4/lib:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib:/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_ros_com -- -j12 -l12
+[0.033s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.142s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.162s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.163s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.193s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.212s] -- Found px4_msgs: 2.0.1 (/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/cmake)
+[0.220s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.241s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.242s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.373s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.385s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.391s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.457s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.462s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.462s] -- Configured cppcheck include dirs: /home/ctuav/ctuav_gazebo-research/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/ctuav/ctuav_gazebo-research/src/px4_ros_com/include/px4_ros_com>
+[0.462s] -- Configured cppcheck exclude dirs and/or files: 
+[0.466s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.466s] -- Configured cpplint exclude dirs and/or files: 
+[0.467s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.468s] -- Added test 'lint_cmake' to check CMake code style
+[0.469s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.474s] -- Added test 'uncrustify' to check C / C++ code style
+[0.474s] -- Configured uncrustify additional arguments: 
+[0.474s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring done
+[0.499s] -- Generating done
+[0.509s] -- Build files have been written to: /home/ctuav/ctuav_gazebo-research/build/px4_ros_com
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_srv[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target frame_transforms[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[0.562s] [ 16%] Built target frame_transforms
+[0.563s] [ 33%] Built target vehicle_gps_position_listener
+[0.564s] [ 66%] Built target offboard_control
+[0.564s] [ 66%] Built target debug_vect_advertiser
+[0.564s] [ 83%] Built target offboard_control_srv
+[0.565s] [100%] Built target sensor_combined_listener
+[0.571s] [100%] Built target ament_cmake_python_symlink_px4_ros_com
+[0.760s] running egg_info
+[0.760s] writing px4_ros_com.egg-info/PKG-INFO
+[0.760s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[0.760s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[0.762s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.762s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[0.789s] [100%] Built target ament_cmake_python_build_px4_ros_com_egg
+[0.800s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent:/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib:/home/ctuav/ctuav_gazebo-research/install/px4/lib:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib:/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_ros_com -- -j12 -l12
+[0.802s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent:/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib:/home/ctuav/ctuav_gazebo-research/install/px4/lib:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib:/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_ros_com
+[0.809s] -- Install configuration: ""
+[0.810s] -- Execute custom install script
+[0.810s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[0.810s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[0.810s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[0.810s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//launch/px4_ros_com_bridge.launch.py
+[0.811s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.812s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[0.813s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[0.813s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[0.813s] -- Symlinking: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/px4_bridge_node.py
+[0.822s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[0.822s] -- Symlinking: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/px4_bridge_node.py
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[0.831s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[0.832s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[0.832s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[0.832s] -- Symlinking: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.dsv
+[0.841s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[0.841s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.841s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[0.842s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.842s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[0.842s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[0.842s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[0.842s] -- Up-to-date symlink: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.xml
+[0.843s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/libframe_transforms.so
+[0.870s] Listing '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[0.870s] Compiling '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/px4_bridge_node.py'...
+[0.874s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[0.874s] -- Up-to-date: /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[0.877s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com:/home/ctuav/ctuav_gazebo-research/install/px4:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent:/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib:/home/ctuav/ctuav_gazebo-research/install/px4/lib:/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib:/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_ros_com

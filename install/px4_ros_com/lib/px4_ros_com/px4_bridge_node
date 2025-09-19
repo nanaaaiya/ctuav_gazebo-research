@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from rclpy.parameter import Parameter
+import importlib
+
+class PX4BridgeNode(Node):
+    def __init__(self):
+        super().__init__('px4_bridge_node')
+
+        # Get parameters
+        self.declare_parameter('input_topic', '/fmu/out/sensor_combined')
+        self.declare_parameter('output_topic', '/px4/sensor_combined')
+
+        input_topic = self.get_parameter('input_topic').get_parameter_value().string_value
+        output_topic = self.get_parameter('output_topic').get_parameter_value().string_value
+
+        # Try to determine message type from PX4 message name
+        # Example: /fmu/out/sensor_combined -> px4_msgs.msg.SensorCombined
+        try:
+            msg_name = input_topic.split('/')[-1]
+            class_name = ''.join([part.capitalize() for part in msg_name.split('_')])
+            msg_module = importlib.import_module('px4_msgs.msg')
+            msg_type = getattr(msg_module, class_name)
+        except Exception as e:
+            self.get_logger().error(f'Cannot import message type for {input_topic}: {e}')
+            raise e
+
+        # Create publisher
+        self.publisher_ = self.create_publisher(msg_type, output_topic, 10)
+
+        # Create subscriber
+        self.subscription = self.create_subscription(
+            msg_type,
+            input_topic,
+            self.callback,
+            10
+        )
+
+        self.get_logger().info(f'Bridging {input_topic} -> {output_topic} ({class_name})')
+
+    def callback(self, msg):
+        self.publisher_.publish(msg)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = PX4BridgeNode()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

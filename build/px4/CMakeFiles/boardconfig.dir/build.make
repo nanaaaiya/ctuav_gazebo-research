@@ -67,8 +67,8 @@ include CMakeFiles/boardconfig.dir/compiler_depend.make
 include CMakeFiles/boardconfig.dir/progress.make
 
 CMakeFiles/boardconfig:
-	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E env PYTHON_EXECUTABLE=/usr/bin/python3 KCONFIG_CONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig PLATFORM= VENDOR=px4 MODEL=ros2 LABEL=default TOOLCHAIN= ARCHITECTURE= ROMFSROOT= BASE_DEFCONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig /usr/bin/python3 -m menuconfig Kconfig
-	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E env PYTHON_EXECUTABLE=/usr/bin/python3 KCONFIG_CONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig PLATFORM= VENDOR=px4 MODEL=ros2 LABEL=default TOOLCHAIN= ARCHITECTURE= ROMFSROOT= BASE_DEFCONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig /usr/bin/python3 -m savedefconfig
+	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E env PYTHON_EXECUTABLE=/usr/bin/python3 KCONFIG_CONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig PLATFORM=ros2 VENDOR=px4 MODEL=ros2 LABEL=default TOOLCHAIN= ARCHITECTURE= ROMFSROOT=px4fmu_common BASE_DEFCONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig /usr/bin/python3 -m menuconfig Kconfig
+	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E env PYTHON_EXECUTABLE=/usr/bin/python3 KCONFIG_CONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig PLATFORM=ros2 VENDOR=px4 MODEL=ros2 LABEL=default TOOLCHAIN= ARCHITECTURE= ROMFSROOT=px4fmu_common BASE_DEFCONFIG=/home/ctuav/ctuav_gazebo-research/build/px4/boardconfig /usr/bin/python3 -m savedefconfig
 	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E copy defconfig /home/ctuav/ctuav_gazebo-research/PX4-Autopilot/boards/px4/ros2/default.px4board
 	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E remove defconfig
 	cd /home/ctuav/ctuav_gazebo-research/PX4-Autopilot && /usr/bin/cmake -E remove /home/ctuav/ctuav_gazebo-research/build/px4/NuttX/apps_copy.stamp

@@ -1,3 +1,4 @@
 /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/libframe_transforms.so
+/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/px4_ros_com/px4_bridge_node
 /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
 /home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake

@@ -1,0 +1,4 @@
+Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
+Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
