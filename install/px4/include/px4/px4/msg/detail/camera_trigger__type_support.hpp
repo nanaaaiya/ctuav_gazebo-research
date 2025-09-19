@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4/platforms/ros2/rosidl_generator_cpp/px4/msg/detail/camera_trigger__type_support.hpp

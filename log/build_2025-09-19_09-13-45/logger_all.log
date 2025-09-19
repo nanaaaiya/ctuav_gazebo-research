@@ -1,0 +1,479 @@
+[0.070s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77693e72fbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77693e72f5b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77693e72f5b0>>)
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ctuav/ctuav_gazebo-research'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-CDR) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-CDR) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-CDR) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-CDR) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-CDR) by extension 'colcon_pkg'
+[0.187s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'Fast-CDR' from colcon.pkg
+[0.187s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'fastcdr' of package 'Fast-CDR' from colcon.pkg
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'Fast-CDR' with type 'cmake' and name 'fastcdr'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-DDS) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-DDS) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-DDS) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-DDS) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(Fast-DDS) by extension 'colcon_pkg'
+[0.188s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'Fast-DDS' from colcon.pkg
+[0.188s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'fastrtps' of package 'Fast-DDS' from colcon.pkg
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'Fast-DDS' with type 'cmake' and name 'fastrtps'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(Micro-XRCE-DDS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(Micro-XRCE-DDS-Agent) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(Micro-XRCE-DDS-Agent) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(Micro-XRCE-DDS-Agent) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(Micro-XRCE-DDS-Agent) by extension 'colcon_pkg'
+[0.188s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting type 'cmake' of package 'Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.188s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Setting name 'microxrcedds_agent' of package 'Micro-XRCE-DDS-Agent' from colcon.pkg
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'Micro-XRCE-DDS-Agent' with type 'cmake' and name 'microxrcedds_agent'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(PX4-Autopilot) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'PX4-Autopilot' with type 'ros.ament_cmake' and name 'px4'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(Tutorials) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.207s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'Fast-DDS' from colcon.pkg: {'name': 'fastrtps', 'type': 'cmake', 'dependencies': ['fastcdr', 'FOONATHAN_MEMORY', 'foonathan_memory_vendor', 'googletest-distribution']}
+[0.207s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'Fast-CDR' from colcon.pkg: {'name': 'fastcdr', 'type': 'cmake', 'dependencies': ['googletest-distribution']}
+[0.208s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'Micro-XRCE-DDS-Agent' from colcon.pkg: {'name': 'microxrcedds_agent', 'type': 'cmake', 'dependencies': ['fastcdr', 'fastrtps'], 'cmake-args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']}
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.219s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'fastcdr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'fastcdr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/fastcdr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/fastcdr', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/Fast-CDR', 'symlink_install': True, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'px4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'px4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/px4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/px4', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/PX4-Autopilot', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/px4_msgs', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/src/px4_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'fastrtps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'fastrtps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/fastrtps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/fastrtps', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/Fast-DDS', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/src/px4_ros_com', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:overwrite package 'microxrcedds_agent' build argument 'cmake_args' from package metadata with '['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON']' (before: 'None')
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'microxrcedds_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'microxrcedds_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent', 'merge_install': False, 'path': '/home/ctuav/ctuav_gazebo-research/Micro-XRCE-DDS-Agent', 'symlink_install': True, 'test_result_base': None}
+[0.246s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/Fast-CDR'
+[0.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctuav/ctuav_gazebo-research/src/px4_msgs' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/src/px4_msgs'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctuav/ctuav_gazebo-research/PX4-Autopilot' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/PX4-Autopilot'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastcdr
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4_msgs
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/PX4-Autopilot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastcdr
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[1.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
+[1.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fastcdr)
+[1.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr' for CMake module files
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr' for CMake config files
+[1.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastcdr', 'cmake_prefix_path')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/cmake_prefix_path.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/cmake_prefix_path.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/cmake_prefix_path.sh'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib'
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastcdr', 'ld_library_path_lib')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/ld_library_path_lib.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/ld_library_path_lib.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/hook/ld_library_path_lib.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr/bin'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/pkgconfig/fastcdr.pc'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/python3.10/site-packages'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastcdr/bin'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/package.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/package.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/package.sh'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/package.bash'
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/package.zsh'
+[1.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/fastcdr/share/colcon-core/packages/fastcdr)
+[1.704s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/Fast-DDS'
+[1.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-DDS -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastrtps
+[2.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/src/px4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4_msgs
+[2.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_msgs -- -j12 -l12
+[4.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-DDS -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastrtps
+[4.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastrtps -- -j12 -l12
+[64.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/PX4-Autopilot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4
+[64.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4 -- -j12 -l12
+[93.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastrtps -- -j12 -l12
+[93.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastrtps
+[93.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fastrtps)
+[93.631s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps' for CMake module files
+[93.632s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps' for CMake config files
+[93.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastrtps' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastrtps
+[93.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastrtps', 'cmake_prefix_path')
+[93.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/cmake_prefix_path.ps1'
+[93.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/cmake_prefix_path.dsv'
+[93.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/cmake_prefix_path.sh'
+[93.637s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib'
+[93.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastrtps', 'ld_library_path_lib')
+[93.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/ld_library_path_lib.ps1'
+[93.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/ld_library_path_lib.dsv'
+[93.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/ld_library_path_lib.sh'
+[93.643s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin'
+[93.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastrtps', 'path')
+[93.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/path.ps1'
+[93.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/path.dsv'
+[93.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/path.sh'
+[93.644s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib/pkgconfig/fastrtps.pc'
+[93.644s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib/python3.10/site-packages'
+[93.644s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin'
+[93.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('fastrtps', 'pythonscriptspath')
+[93.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/pythonscriptspath.ps1'
+[93.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/pythonscriptspath.dsv'
+[93.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/hook/pythonscriptspath.sh'
+[93.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/package.ps1'
+[93.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/package.dsv'
+[93.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/package.sh'
+[93.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/package.bash'
+[93.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/fastrtps/package.zsh'
+[93.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/fastrtps/share/colcon-core/packages/fastrtps)
+[93.654s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/Micro-XRCE-DDS-Agent'
+[93.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[93.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[93.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent
+[94.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent
+[94.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent -- -j12 -l12
+[172.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent -- -j12 -l12
+[172.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent
+[172.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microxrcedds_agent)
+[172.254s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent' for CMake module files
+[172.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent' returned '0': CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps:/home/ctuav/ctuav_gazebo-research/install/fastcdr:/usr/local LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/lib:/home/ctuav/ctuav_gazebo-research/install/fastcdr/lib:${LD_LIBRARY_PATH} PATH=/home/ctuav/ctuav_gazebo-research/install/fastrtps/bin:${PATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/microxrcedds_agent
+[172.255s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent' for CMake config files
+[172.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'cmake_prefix_path')
+[172.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.ps1'
+[172.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.dsv'
+[172.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/cmake_prefix_path.sh'
+[172.260s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib'
+[172.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'ld_library_path_lib')
+[172.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.ps1'
+[172.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.dsv'
+[172.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/ld_library_path_lib.sh'
+[172.261s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/bin'
+[172.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'path')
+[172.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.ps1'
+[172.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.dsv'
+[172.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/path.sh'
+[172.262s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib/pkgconfig/microxrcedds_agent.pc'
+[172.263s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/lib/python3.10/site-packages'
+[172.263s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/bin'
+[172.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('microxrcedds_agent', 'pythonscriptspath')
+[172.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.ps1'
+[172.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.dsv'
+[172.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/hook/pythonscriptspath.sh'
+[172.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/package.ps1'
+[172.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/package.dsv'
+[172.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/package.sh'
+[172.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/package.bash'
+[172.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/microxrcedds_agent/package.zsh'
+[172.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/microxrcedds_agent/share/colcon-core/packages/microxrcedds_agent)
+[239.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_msgs -- -j12 -l12
+[239.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_msgs
+[280.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[280.136s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs' for CMake module files
+[280.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_msgs
+[280.137s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs' for CMake config files
+[280.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[280.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[280.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[280.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[280.160s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib'
+[280.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[280.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[280.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[280.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[280.161s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/bin'
+[280.161s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[280.161s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib/python3.10/site-packages'
+[280.161s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/bin'
+[280.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.ps1'
+[280.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.dsv'
+[280.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.sh'
+[280.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.bash'
+[280.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.zsh'
+[280.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[280.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[280.163s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs' for CMake module files
+[280.164s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs' for CMake config files
+[280.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[280.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[280.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[280.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[280.187s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib'
+[280.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[280.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[280.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[280.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[280.188s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/bin'
+[280.188s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[280.188s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib/python3.10/site-packages'
+[280.189s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/bin'
+[280.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.ps1'
+[280.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.dsv'
+[280.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.sh'
+[280.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.bash'
+[280.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/px4_msgs/package.zsh'
+[280.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[280.191s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ctuav/ctuav_gazebo-research/src/px4_ros_com' with build type 'ament_cmake'
+[280.191s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ctuav/ctuav_gazebo-research/src/px4_ros_com'
+[280.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[280.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[280.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4_ros_com
+[281.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/src/px4_ros_com -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/px4_ros_com
+[281.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_ros_com -- -j12 -l12
+[289.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4_ros_com -- -j12 -l12
+[289.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_ros_com
+[289.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[289.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com' for CMake module files
+[289.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs:/usr/local:/opt/ros/humble LD_LIBRARY_PATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ctuav/ctuav_gazebo-research/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4_ros_com
+[289.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com' for CMake config files
+[289.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[289.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[289.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[289.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[289.485s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib'
+[289.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[289.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[289.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[289.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[289.486s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/bin'
+[289.486s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[289.486s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/python3.10/site-packages'
+[289.486s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/bin'
+[289.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[289.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[289.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.sh'
+[289.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.bash'
+[289.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[289.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[289.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[289.488s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com' for CMake module files
+[289.488s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com' for CMake config files
+[289.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[289.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[289.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[289.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[289.490s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib'
+[289.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[289.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[289.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[289.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[289.491s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/bin'
+[289.491s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[289.491s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/lib/python3.10/site-packages'
+[289.491s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/bin'
+[289.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[289.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[289.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.sh'
+[289.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.bash'
+[289.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[289.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[313.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/px4 -- -j12 -l12
+[313.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ctuav/ctuav_gazebo-research/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4
+[345.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[345.430s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4' for CMake module files
+[345.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ctuav/ctuav_gazebo-research/build/px4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/px4
+[345.431s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4' for CMake config files
+[345.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[345.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[345.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[345.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[345.456s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib'
+[345.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[345.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[345.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[345.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[345.457s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/bin'
+[345.457s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib/pkgconfig/px4.pc'
+[345.457s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib/python3.10/site-packages'
+[345.457s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/bin'
+[345.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.ps1'
+[345.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.dsv'
+[345.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.sh'
+[345.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.bash'
+[345.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.zsh'
+[345.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4/share/colcon-core/packages/px4)
+[345.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4)
+[345.460s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4' for CMake module files
+[345.460s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4' for CMake config files
+[345.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'cmake_prefix_path')
+[345.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.ps1'
+[345.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.dsv'
+[345.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/cmake_prefix_path.sh'
+[345.482s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib'
+[345.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4', 'ld_library_path_lib')
+[345.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.ps1'
+[345.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.dsv'
+[345.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/hook/ld_library_path_lib.sh'
+[345.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/bin'
+[345.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib/pkgconfig/px4.pc'
+[345.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/lib/python3.10/site-packages'
+[345.483s] Level 1:colcon.colcon_core.environment:checking '/home/ctuav/ctuav_gazebo-research/install/px4/bin'
+[345.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.ps1'
+[345.484s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.dsv'
+[345.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.sh'
+[345.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.bash'
+[345.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ctuav/ctuav_gazebo-research/install/px4/share/px4/package.zsh'
+[345.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ctuav/ctuav_gazebo-research/install/px4/share/colcon-core/packages/px4)
+[345.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[345.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[345.485s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[345.485s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[345.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[345.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[345.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[345.512s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[345.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctuav/ctuav_gazebo-research/install/local_setup.ps1'
+[345.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ctuav/ctuav_gazebo-research/install/_local_setup_util_ps1.py'
+[345.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctuav/ctuav_gazebo-research/install/setup.ps1'
+[345.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctuav/ctuav_gazebo-research/install/local_setup.sh'
+[345.515s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ctuav/ctuav_gazebo-research/install/_local_setup_util_sh.py'
+[345.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctuav/ctuav_gazebo-research/install/setup.sh'
+[345.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctuav/ctuav_gazebo-research/install/local_setup.bash'
+[345.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctuav/ctuav_gazebo-research/install/setup.bash'
+[345.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ctuav/ctuav_gazebo-research/install/local_setup.zsh'
+[345.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ctuav/ctuav_gazebo-research/install/setup.zsh'

@@ -1,0 +1,393 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"absl_cc_library"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/home/ctuav/ctuav_gazebo-research/build/px4/_deps/abseil-cpp-src/CMake/AbseilHelpers.cmake",
+			"/home/ctuav/ctuav_gazebo-research/build/px4/_deps/abseil-cpp-src/absl/strings/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 488,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 683,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 19
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 748,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 22
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 792,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 26
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 827,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 30
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 31
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 897,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 34
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 969,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 349,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 38
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 39
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_string_view.a"
+			],
+			"targetId" : "string_view::@cadd5db28f0587d4097f",
+			"targetIndex" : 247,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_strings.a"
+			],
+			"targetId" : "strings::@cadd5db28f0587d4097f",
+			"targetIndex" : 248,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_strings_internal.a"
+			],
+			"targetId" : "strings_internal::@cadd5db28f0587d4097f",
+			"targetIndex" : 249,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_str_format_internal.a"
+			],
+			"targetId" : "str_format_internal::@cadd5db28f0587d4097f",
+			"targetIndex" : 245,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cord_internal.a"
+			],
+			"targetId" : "cord_internal::@cadd5db28f0587d4097f",
+			"targetIndex" : 65,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cordz_functions.a"
+			],
+			"targetId" : "cordz_functions::@cadd5db28f0587d4097f",
+			"targetIndex" : 66,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cordz_handle.a"
+			],
+			"targetId" : "cordz_handle::@cadd5db28f0587d4097f",
+			"targetIndex" : 67,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cordz_info.a"
+			],
+			"targetId" : "cordz_info::@cadd5db28f0587d4097f",
+			"targetIndex" : 68,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cordz_sample_token.a"
+			],
+			"targetId" : "cordz_sample_token::@cadd5db28f0587d4097f",
+			"targetIndex" : 69,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/abseil-cpp-build/absl/strings/libabsl_cord.a"
+			],
+			"targetId" : "cord::@cadd5db28f0587d4097f",
+			"targetIndex" : 64,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/abseil-cpp-build/absl/strings",
+		"source" : "/home/ctuav/ctuav_gazebo-research/build/px4/_deps/abseil-cpp-src/absl/strings"
+	}
+}

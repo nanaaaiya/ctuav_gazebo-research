@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/PX4-Autopilot/platforms/ros2/../../msg/RoverAttitudeSetpoint.msg

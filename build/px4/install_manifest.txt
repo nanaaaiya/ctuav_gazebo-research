@@ -1,0 +1,8 @@
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_generator_c.so
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_fastrtps_c.a
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_fastrtps_cpp.a
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_introspection_c.so
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_c.so
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_introspection_cpp.so
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_typesupport_cpp.so
+/home/ctuav/ctuav_gazebo-research/install/px4/lib/libpx4__rosidl_generator_py.so

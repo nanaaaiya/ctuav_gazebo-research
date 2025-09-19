@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rover_speed_status__rosidl_typesupport_fastrtps_c.h

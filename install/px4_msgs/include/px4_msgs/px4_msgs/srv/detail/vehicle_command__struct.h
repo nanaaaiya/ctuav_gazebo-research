@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4_msgs/rosidl_generator_c/px4_msgs/srv/detail/vehicle_command__struct.h

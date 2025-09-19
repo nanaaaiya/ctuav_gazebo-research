@@ -1,0 +1,169 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/cpp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 573,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 592,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 598,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 614,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 630,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/fastrtps"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/fastdds"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "headers",
+			"destination" : "include/fastrtps",
+			"paths" : 
+			[
+				"/home/ctuav/ctuav_gazebo-research/build/fastrtps/include/fastrtps/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/fastdds",
+			"paths" : 
+			[
+				"include/fastdds/statistics"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastrtps.so.2.6.6",
+				"src/cpp/libfastrtps.so.2.6"
+			],
+			"targetId" : "fastrtps::@75938a602bfe1332d7ce",
+			"targetIndex" : 29,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/cpp/libfastrtps.so"
+			],
+			"targetId" : "fastrtps::@75938a602bfe1332d7ce",
+			"targetIndex" : 29,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "cmake",
+			"destination" : "share/fastrtps/cmake",
+			"exportName" : "fastrtps-dynamic-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fastrtps::@75938a602bfe1332d7ce",
+					"index" : 29
+				},
+				{
+					"id" : "eProsima_atomic::@75938a602bfe1332d7ce",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"src/cpp/CMakeFiles/Export/share/fastrtps/cmake/fastrtps-dynamic-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "cmake",
+			"destination" : "share/fastrtps/cmake",
+			"paths" : 
+			[
+				"/home/ctuav/ctuav_gazebo-research/build/fastrtps/cmake/config/fastrtps-config.cmake",
+				"/home/ctuav/ctuav_gazebo-research/build/fastrtps/cmake/config/fastrtps-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/cpp",
+		"source" : "src/cpp"
+	}
+}

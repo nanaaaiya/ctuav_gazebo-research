@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4/platforms/ros2/ament_cmake_environment_hooks/pythonpath.sh

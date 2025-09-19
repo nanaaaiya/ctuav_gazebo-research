@@ -1,0 +1,12 @@
+prefix=/home/ctuav/ctuav_gazebo-research/install/px4
+exec_prefix=${prefix}
+libdir=/home/ctuav/ctuav_gazebo-research/install/px4/lib
+includedir=/home/ctuav/ctuav_gazebo-research/install/px4/include
+
+Name: absl_cleanup
+Description: Abseil cleanup library
+URL: https://abseil.io/
+Version: head
+Requires: absl_cleanup_internal = head, absl_config = head, absl_core_headers = head
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

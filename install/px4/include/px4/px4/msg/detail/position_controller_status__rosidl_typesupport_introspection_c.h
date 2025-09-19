@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4/platforms/ros2/rosidl_typesupport_introspection_c/px4/msg/detail/position_controller_status__rosidl_typesupport_introspection_c.h

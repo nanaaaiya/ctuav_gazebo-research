@@ -1,0 +1,65 @@
+[0.011s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastcdr
+[0.017s] -- Setting build type to 'Release' as none was specified.
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.235s] -- Configuring Fast CDR
+[0.235s] -- Version: 1.0.24
+[0.235s] -- To change the version modify the file configure.ac
+[0.236s] -- Performing Test SUPPORTS_CXX14
+[0.299s] -- Performing Test SUPPORTS_CXX14 - Success
+[0.301s] -- Looking for sys/types.h
+[0.358s] -- Looking for sys/types.h - found
+[0.358s] -- Looking for stdint.h
+[0.416s] -- Looking for stdint.h - found
+[0.416s] -- Looking for stddef.h
+[0.475s] -- Looking for stddef.h - found
+[0.475s] -- Check size of long double
+[0.538s] -- Check size of long double - done
+[0.538s] -- Check size of __float128
+[0.597s] -- Check size of __float128 - done
+[0.605s] -- Configuring done
+[0.608s] -- Generating done
+[0.610s] -- Build files have been written to: /home/ctuav/ctuav_gazebo-research/build/fastcdr
+[0.613s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake /home/ctuav/ctuav_gazebo-research/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/ctuav/ctuav_gazebo-research/install/fastcdr
+[0.615s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[0.653s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[0.653s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[0.653s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[0.654s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[0.654s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[0.654s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[1.347s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[1.421s] [100%] Built target fastcdr
+[1.431s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --build /home/ctuav/ctuav_gazebo-research/build/fastcdr -- -j12 -l12
+[1.440s] Invoking command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr
+[1.444s] -- Install configuration: "Release"
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/share/fastcdr/LICENSE
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/Cdr.h
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions
+[1.445s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/FastBuffer.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/FastCdr.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/include/fastcdr/config.h
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so.1.0.24
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so.1
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/libfastcdr.so
+[1.446s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets.cmake
+[1.447s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-dynamic-targets-release.cmake
+[1.447s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[1.447s] -- Installing: /home/ctuav/ctuav_gazebo-research/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[1.449s] Invoked command in '/home/ctuav/ctuav_gazebo-research/build/fastcdr' returned '0': /usr/bin/cmake --install /home/ctuav/ctuav_gazebo-research/build/fastcdr

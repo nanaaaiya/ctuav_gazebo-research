@@ -1,0 +1,1 @@
+/home/ctuav/ctuav_gazebo-research/build/px4/options-pinned.h
